@@ -17,13 +17,13 @@ Na pasta raíz do projeto, tudo que você precisa fazer para excutar é:
 mvn package
 java -jar target/<jar-snapshoot> <input-file> <dest-path>
 ```
-jar-snapshoot é o arquivo .jar gerado no empacotamento com Maven
+_jar-snapshoot_ - o arquivo .jar gerado no empacotamento com Maven
 
-input-file - Caminho para o arquivo CSV de entrada
+_input-file_ - Caminho para o arquivo CSV de entrada
 
 __Exemplo LINUX - /home/danilo/contas.csv | WINDOWS - C:\usuarios\danilo\contas.csv__
 
-dest-path  - Diret¾rio de destino para o arquivo de resposta
+_dest-path_  - Diret¾rio de destino para o arquivo de resposta
 
 __Exemplo LINUX - /home/danilo | WINDOWS - C:\\usuarios\\danilo__
 
